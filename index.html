@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Yadav - Web Developer Resume</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="resume-wrapper">
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <img src="sandeep.jpg" alt="Profile Photo"
+                    class="profile-photo">
+
+                <h1 class="name">Sandeep Yadav</h1>
+                <h2 class="title">Full Stack Developer</h2>
+
+                <a href="resume.pdf" class="download-btn" onclick="window.print(); return false;">
+                    <i class="fas fa-download"></i> Download as PDF
+                </a>
+                <p class="print-note">Tip: Use "Save as PDF" in the print dialog.</p>
+
+                <section class="contact-info">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> ravindrayadav4367@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 7322815406</p>
+                    <p><i class="fas fa-map-marker-alt"></i> New Delhi, India</p>
+                    <p><i class="fas fa-globe"></i> myportfolio.com</p>
+                </section>
+
+                <section class="social-links">
+                    <h3>Find Me Online</h3>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </section>
+
+                <section class="skills">
+                    <h3>Professional Skills</h3>
+                    <div class="skill-item">
+                        <label>Python & Django</label>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="--skill-percent: 90%;" aria-valuenow="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <label>JavaScript (React & Node.js)</label>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="--skill-percent: 85%;" aria-valuenow="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <label>HTML5 & CSS3</label>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="--skill-percent: 95%;" aria-valuenow="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <label>Database (SQL & MongoDB)</label>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="--skill-percent: 80%;" aria-valuenow="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <label>DevOps (Docker & CI/CD)</label>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="--skill-percent: 70%;" aria-valuenow="70"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </aside>
+
+        <main class="main-content">
+
+            <section class="summary">
+                <h2><i class="fas fa-user-circle"></i> Professional Summary</h2>
+                <p>Ek highly motivated aur detail-oriented Full Stack Developer jise 2+ saal ka experience hai. Main
+                    scalable web applications design karne, develop karne, aur maintain karne mein expert hoon.
+                    Technology ka use karke complex problems ko solve karna mera passion hai.</p>
+            </section>
+
+            <section class="experience">
+                <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3 class="role">Junior Software Engineer</h3>
+                        <span class="company">TechNova Solutions | 2022 - Present</span>
+                        <ul>
+                            <li>Ek 4-member team ko lead kiya aur high-performance fintech applications develop kiye.
+                            </li>
+                            <li>Django REST Framework ka use karke secure RESTful APIs build ki.</li>
+                            <li>React aur Redux ka istemal karke client-side performance ko 30% improve kiya.</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <h3 class="role">Software Developer</h3>
+                        <span class="company">EduSmart Ltd. | 2022 - 2024</span>
+                        <ul>
+                            <li>Ek e-learning platform develop kiya jise 50,000+ users use karte hain.</li>
+                            <li>Database queries optimize ki, jisse page load time 45% kam hua.</li>
+                            <li>Docker aur Jenkins ka use karke CI/CD pipelines implement ki.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects">
+                <h2><i class="fas fa-code-branch"></i> Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>E-commerce Platform</h3>
+                        <p>Django aur React se bani ek full-featured e-commerce site.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Django</span>
+                            <span>Stripe API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Repo</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Task Management App</h3>
+                        <p>Node.js aur MongoDB se bana ek real-time Kanban board.</p>
+                        <div class="tech-stack">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i> Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="education">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="timeline">
+                    <!-- <div class="timeline-item">
+                        <h3 class="role">M.Tech, Computer Science</h3>
+                        <span class="company">IIT Delhi | 2017 - 2019</span>
+                        <p>Specialization in Data Science and Machine Learning.</p>
+                    </div> -->
+                    <div class="timeline-item">
+                        <h3 class="role">B.Tech, Computer Science Engineering</h3>
+                        <span class="company">RGPV, Bhopal | 2022 - 2026</span>
+                        <p>Graduated with First Class Honours.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="achievements">
+                <h2><i class="fas fa-trophy"></i> Achievements</h2>
+                <ul>
+                    <li>"Best Performer" award at TechNova Solutions (Q3 2022).</li>
+                    <li>Published 1 research paper on Technical Writeing during B.Tech.</li>
+                   
+                </ul>
+            </section>
+
+            <section class="hobbies">
+                <h2><i class="fas fa-heart"></i> Hobbies & Interests</h2>
+                <ul>
+                    <li>Open-source contributions and exploring new tech frameworks.</li>
+                    <li>Trekking and landscape photography.</li>
+                    <li>Playing cricket.</li>
+                </ul>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
