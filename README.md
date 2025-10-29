@@ -4,7 +4,7 @@ Yeh ek modern, professional, aur fully responsive 1-page resume website hai. Ise
 
 Is project ka main focus advanced CSS layout techniques, animations, aur **print-friendly stylesheets** par hai.
 
-<img width="307" height="414" alt="image" src="https://github.com/user-attachments/assets/01801791-412a-4315-a0f1-5f23cb90818f" />
+<img width="507" height="614" alt="image" src="https://github.com/user-attachments/assets/01801791-412a-4315-a0f1-5f23cb90818f" />
 
 
 ## ✨ Key Features
